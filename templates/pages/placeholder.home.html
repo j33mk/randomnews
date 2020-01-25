@@ -1,0 +1,31 @@
+{% extends 'layouts/main.html' %}
+{% block title %}Home{% endblock %}
+{% block content %}
+
+<!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div id="quoteContainer">
+          <blockquote class="quote-box">
+              <p class="quotation-mark">
+                  “
+              </p>
+              <p class="quote-text" id="txtQuote">
+                  Don't believe anything that you read on the internet, it may be fake.
+              </p>
+              <hr>
+              <div class="blog-post-actions">
+                  <p class="blog-post-bottom pull-left">
+                      <span class="btn fa fa-refresh" id="btnReload"></span>
+                      <span id="txtPoweredBy">Powered by J33mk</span>
+                  </p>
+                  <p class="blog-post-bottom pull-right">
+                      <span class="btn badge quote-badge" id="btnDev">with ❤ from developer</span>
+                  </p>
+              </div>
+          </blockquote>
+      </div>
+      
+      
+{% endblock %}

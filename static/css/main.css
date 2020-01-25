@@ -1,0 +1,84 @@
+
+/**
+ * @file
+ * Main stylesheet file.
+ */
+
+
+/*****************************************************************************
+ * Main elements
+ ****************************************************************************/
+html {
+  overflow-y: scroll;
+}
+a {
+  cursor: pointer;
+}
+::selection {
+  background: #555;
+  color: #FFF;
+}
+::-moz-selection {
+  background: #555;
+  color: #FFF;
+}
+::-webkit-selection {
+  background: #555;
+  color: #FFF;
+}
+/* Main elements end */
+
+
+/*****************************************************************************
+ * Various other styles
+
+ 
+ ****************************************************************************/
+ blockquote{
+  border-left:none
+}
+
+.quote-badge{
+  background-color: rgba(0, 0, 0, 0.2);   
+}
+
+.quote-box{
+  
+  overflow: hidden;
+  margin-top: -50px;
+  padding-top: -100px;
+  border-radius: 17px;
+  background-color: #085148;
+  margin-top: 100px;
+  color:white;
+  width: 100%;
+  box-shadow: 2px 2px 2px 2px #E0E0E0;
+  
+}
+a{
+  color:#fbe000
+}
+.quotation-mark{
+  
+  margin-top: -10px;
+  font-weight: bold;
+  font-size:100px;
+  color:white;
+  font-family: "Times New Roman", Georgia, Serif;
+  
+}
+.news-mark{
+  margin-top: -10px;
+  margin-bottom: 70px;
+  font-weight: bold;
+  font-size:100px;
+  color:white;
+  font-family: "Times New Roman", Georgia, Serif;
+}
+
+.quote-text{
+  
+  font-size: 33px;
+  margin-top: -65px;
+}
+/* Various other styles end */
