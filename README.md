@@ -1,1 +1,1 @@
-init
+Scrap news from Dawn.com newspaper
